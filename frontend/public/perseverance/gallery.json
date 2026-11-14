@@ -1,0 +1,94 @@
+{
+ "title": "Perseverance close-up gallery (sol 2024 / 2031, position not provided)",
+ "note": "Close-ups of a single vuggy white-and-tan rock (Mastcam-Z, sol 2024) and a circular SuperCam image (sol 2031). The files carry no position information and are NOT terrain views of any Jezero waypoint.",
+ "items": [
+  {
+   "file": "/perseverance/LRF_2031_0847237865_241EBY_N0930000SCAM01031_0100I4J.jpg",
+   "thumb": "/perseverance/LRF_2031_0847237865_241EBY_N0930000SCAM01031_0100I4J_thumb.jpg",
+   "camera": "SuperCam image",
+   "product": "colour (EBY)",
+   "sol": 2031,
+   "id": "LRF_2031_0847237865_241EBY_N0930000SCAM01031_0100I4J"
+  },
+  {
+   "file": "/perseverance/ZL0_2024_0846622560_144EBY_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZL0_2024_0846622560_144EBY_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z left",
+   "product": "colour (EBY)",
+   "sol": 2024,
+   "id": "ZL0_2024_0846622560_144EBY_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZL0_2024_0846622560_144ECM_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZL0_2024_0846622560_144ECM_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z left",
+   "product": "grayscale (ECM)",
+   "sol": 2024,
+   "id": "ZL0_2024_0846622560_144ECM_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZL0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZL0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z left",
+   "product": "colour (EBY)",
+   "sol": 2024,
+   "id": "ZL0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZL0_2024_0846622583_145ECM_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZL0_2024_0846622583_145ECM_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z left",
+   "product": "grayscale (ECM)",
+   "sol": 2024,
+   "id": "ZL0_2024_0846622583_145ECM_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZR0_2024_0846622537_145EBY_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZR0_2024_0846622537_145EBY_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z right",
+   "product": "colour (EBY)",
+   "sol": 2024,
+   "id": "ZR0_2024_0846622537_145EBY_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZR0_2024_0846622537_145ECM_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZR0_2024_0846622537_145ECM_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z right",
+   "product": "grayscale (ECM)",
+   "sol": 2024,
+   "id": "ZR0_2024_0846622537_145ECM_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZR0_2024_0846622560_144EBY_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZR0_2024_0846622560_144EBY_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z right",
+   "product": "colour (EBY)",
+   "sol": 2024,
+   "id": "ZR0_2024_0846622560_144EBY_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZR0_2024_0846622560_144ECM_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZR0_2024_0846622560_144ECM_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z right",
+   "product": "grayscale (ECM)",
+   "sol": 2024,
+   "id": "ZR0_2024_0846622560_144ECM_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZR0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZR0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z right",
+   "product": "colour (EBY)",
+   "sol": 2024,
+   "id": "ZR0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ"
+  },
+  {
+   "file": "/perseverance/ZR0_2024_0846622583_145ECM_N0930000ZCAM10058_1100LMJ.jpg",
+   "thumb": "/perseverance/ZR0_2024_0846622583_145ECM_N0930000ZCAM10058_1100LMJ_thumb.jpg",
+   "camera": "Mastcam-Z right",
+   "product": "grayscale (ECM)",
+   "sol": 2024,
+   "id": "ZR0_2024_0846622583_145ECM_N0930000ZCAM10058_1100LMJ"
+  }
+ ]
+}

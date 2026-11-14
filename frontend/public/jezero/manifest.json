@@ -1,0 +1,211 @@
+{
+ "dem_label": "20 m CTX terrain (M20_JezeroCrater_CTXDEM_20m)",
+ "overlay_downsample": 3,
+ "dem": {
+  "shape": [
+   5067,
+   4456
+  ],
+  "pixel_m": 20.0,
+  "bounds_swne": [
+   17.580519910544755,
+   76.99743706146002,
+   19.29018700686615,
+   78.58256332408818
+  ],
+  "z_min": -3504.645263671875,
+  "z_max": -475.8408203125,
+  "z_median": -2332.377197265625,
+  "nodata_frac": 0.0006190388117005909
+ },
+ "slope_stats_deg": {
+  "median": 4.571311118244067,
+  "p95": 18.226368345924218,
+  "max": 87.54694018209146
+ },
+ "thermal_inertia": {
+  "bounds_swne": [
+   17.749563371223022,
+   76.99912763292366,
+   19.251047203595277,
+   78.50061146529593
+  ],
+  "unit": "J m-2 K-1 s-0.5",
+  "valid_min": 42.42324447631836,
+  "valid_max": 1655.32763671875,
+  "median": 243.60125732421875,
+  "colour_range": [
+   42,
+   600
+  ],
+  "note": "Display only. Colour stretch clipped at 600 for contrast. Not used for hazard."
+ },
+ "crism": {
+  "label": "preliminary mineral attribution (Parente/Itoh/Saranathan CRISM map)",
+  "bounds_swne": [
+   18.2800374742353,
+   77.265660795641,
+   18.736151147179303,
+   77.63856864542477
+  ],
+  "classes": [
+   {
+    "name": "Olivine",
+    "high_conf_rgb": [
+     255,
+     0,
+     0
+    ],
+    "medium_conf_rgb": [
+     153,
+     0,
+     0
+    ],
+    "pixel_count": 33296
+   },
+   {
+    "name": "Mg-carbonate",
+    "high_conf_rgb": [
+     0,
+     255,
+     0
+    ],
+    "medium_conf_rgb": [
+     0,
+     153,
+     0
+    ],
+    "pixel_count": 39695
+   },
+   {
+    "name": "Fe/Mg-smectite",
+    "high_conf_rgb": [
+     0,
+     255,
+     255
+    ],
+    "medium_conf_rgb": [
+     0,
+     153,
+     153
+    ],
+    "pixel_count": 4680
+   },
+   {
+    "name": "Olivine+smectite",
+    "high_conf_rgb": [
+     255,
+     128,
+     114
+    ],
+    "medium_conf_rgb": [
+     153,
+     77,
+     68
+    ],
+    "pixel_count": 214769
+   },
+   {
+    "name": "Olv.smect+2.2um",
+    "high_conf_rgb": [
+     128,
+     128,
+     0
+    ],
+    "medium_conf_rgb": [
+     77,
+     77,
+     0
+    ],
+    "pixel_count": 4783
+   },
+   {
+    "name": "Carb.+2.2um",
+    "high_conf_rgb": [
+     255,
+     215,
+     0
+    ],
+    "medium_conf_rgb": [
+     153,
+     129,
+     0
+    ],
+    "pixel_count": 1770
+   },
+   {
+    "name": "High-Ca pyroxene",
+    "high_conf_rgb": [
+     255,
+     128,
+     0
+    ],
+    "medium_conf_rgb": [
+     153,
+     77,
+     0
+    ],
+    "pixel_count": 17772
+   },
+   {
+    "name": "Low-Ca pyroxene",
+    "high_conf_rgb": [
+     218,
+     165,
+     32
+    ],
+    "medium_conf_rgb": [
+     130,
+     99,
+     19
+    ],
+    "pixel_count": 1978
+   },
+   {
+    "name": "Kaolinite",
+    "high_conf_rgb": [
+     139,
+     69,
+     19
+    ],
+    "medium_conf_rgb": [
+     83,
+     41,
+     11
+    ],
+    "pixel_count": 34915
+   },
+   {
+    "name": "Mg-smectite 2",
+    "high_conf_rgb": [
+     0,
+     0,
+     255
+    ],
+    "medium_conf_rgb": [
+     0,
+     0,
+     153
+    ],
+    "pixel_count": 205
+   }
+  ],
+  "unidentified_frac": 0.23259107292339856,
+  "note": "Black = unidentified (transparent). Classes assigned by nearest key colour."
+ },
+ "geology": {
+  "features": 4693,
+  "surface_unit_index": [
+   "",
+   "Undifferentiated smooth",
+   "Minor Cover Us",
+   "Moderate Cover Us",
+   "Aeolian bedforms small",
+   "Aeolian bedforms large",
+   "Talus"
+  ],
+  "painted_frac": 0.008718805351202327,
+  "note": "Unit cost raster uses ASSUMED costs from data/config/unit_hazard_costs.json. Derived hazard, not measured rock abundance. Geology covers only ~77.22-77.56E, 18.32-18.62N; outside it cost=1.0 (unmapped)."
+ },
+ "nomenclature_count": 23
+}

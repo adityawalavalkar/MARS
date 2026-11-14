@@ -33,6 +33,16 @@ npm run lint
 npm run build
 ```
 
+## Public single-URL deployment (Render)
+
+The Docker image builds the React/Vite app and serves it from the FastAPI origin, so the dashboard, API, Jezero static assets and `/static` terrain products share one URL. No `VITE_API_BASE_URL` or production CORS configuration is needed. NASA Trek basemap tiles still load directly from NASA in visitors' browsers.
+
+1. Push this project to a GitHub repository connected to Render.
+2. In Render, create a Blueprint from that repository and select `render.yaml`.
+3. Wait for the Docker build and `/api/health` health check to pass; open the service's `onrender.com` URL.
+
+The included Blueprint uses Render's free web service plan. Free services can sleep when idle, so the first visit after inactivity may take longer while the backend starts and loads terrain data. The deployment bundles the processed data and does not require persistent storage.
+
 ## Included data
 
 - Processed Jezero MOLA elevation, slope, hazard class/score GeoTIFFs and derived map/overlay imagery.

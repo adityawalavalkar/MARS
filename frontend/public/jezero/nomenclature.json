@@ -1,0 +1,189 @@
+{
+"source": "IAU/USGS Gazetteer of Planetary Nomenclature, MARS_nomenclature_center_pts (plain sphere, lon 0-360E)",
+"features": [
+{
+"name": "Jezero",
+"type": "Crater",
+"lon": 77.6873,
+"lat": 18.4082,
+"diameter_km": 47.5,
+"tier": "local"
+},
+{
+"name": "Okavango Valles",
+"type": "Vallis",
+"lon": 8.9665,
+"lat": 38.0978,
+"diameter_km": 285.1,
+"tier": "regional"
+},
+{
+"name": "Terra Sabaea",
+"type": "Terra",
+"lon": 51.3035,
+"lat": 2.7188,
+"diameter_km": 4688.4,
+"tier": "regional"
+},
+{
+"name": "Cusus Valles",
+"type": "Vallis",
+"lon": 50.3724,
+"lat": 14.0451,
+"diameter_km": 250.2,
+"tier": "regional"
+},
+{
+"name": "Isidis Planitia",
+"type": "Planitia",
+"lon": 88.3772,
+"lat": 13.9357,
+"diameter_km": 1224.6,
+"tier": "regional"
+},
+{
+"name": "Coloe Fossae",
+"type": "Fossa",
+"lon": 56.7804,
+"lat": 36.6501,
+"diameter_km": 575.9,
+"tier": "regional"
+},
+{
+"name": "Ismeniae Fossae",
+"type": "Fossa",
+"lon": 38.3526,
+"lat": 41.3145,
+"diameter_km": 286.9,
+"tier": "regional"
+},
+{
+"name": "Libya Montes",
+"type": "Mons",
+"lon": 88.2284,
+"lat": 1.4424,
+"diameter_km": 1043.6,
+"tier": "regional"
+},
+{
+"name": "Locras Valles",
+"type": "Vallis",
+"lon": 48.2644,
+"lat": 8.8434,
+"diameter_km": 351.3,
+"tier": "regional"
+},
+{
+"name": "Arabia Terra",
+"type": "Terra",
+"lon": 5.7185,
+"lat": 21.249,
+"diameter_km": 4851.7,
+"tier": "regional"
+},
+{
+"name": "Syrtis Major Planum",
+"type": "Planum",
+"lon": 67.103,
+"lat": 9.2007,
+"diameter_km": 1214.9,
+"tier": "regional"
+},
+{
+"name": "Nili Fossae",
+"type": "Fossa",
+"lon": 76.6948,
+"lat": 22.0182,
+"diameter_km": 727.9,
+"tier": "regional"
+},
+{
+"name": "Huo Hsing Vallis",
+"type": "Vallis",
+"lon": 66.6052,
+"lat": 30.1874,
+"diameter_km": 332.3,
+"tier": "regional"
+},
+{
+"name": "Indus Vallis",
+"type": "Vallis",
+"lon": 38.8777,
+"lat": 18.9491,
+"diameter_km": 342.0,
+"tier": "regional"
+},
+{
+"name": "Arnus Vallis",
+"type": "Vallis",
+"lon": 70.6149,
+"lat": 13.9672,
+"diameter_km": 311.6,
+"tier": "regional"
+},
+{
+"name": "Auqakuh Vallis",
+"type": "Vallis",
+"lon": 60.4078,
+"lat": 30.2461,
+"diameter_km": 347.0,
+"tier": "regional"
+},
+{
+"name": "Naktong Vallis",
+"type": "Vallis",
+"lon": 33.3932,
+"lat": 4.8874,
+"diameter_km": 669.6,
+"tier": "regional"
+},
+{
+"name": "Mamers Valles",
+"type": "Vallis",
+"lon": 17.9437,
+"lat": 40.6537,
+"diameter_km": 1020.0,
+"tier": "regional"
+},
+{
+"name": "Scamander Vallis",
+"type": "Vallis",
+"lon": 28.5328,
+"lat": 15.8912,
+"diameter_km": 269.0,
+"tier": "regional"
+},
+{
+"name": "Hartwell",
+"type": "Crater",
+"lon": 77.72,
+"lat": 18.53,
+"diameter_km": 1.7,
+"tier": "local"
+},
+{
+"name": "Belva",
+"type": "Crater",
+"lon": 77.38,
+"lat": 18.48,
+"diameter_km": 0.9,
+"tier": "local"
+},
+{
+"name": "Neretva Vallis",
+"type": "Vallis",
+"lon": 77.2,
+"lat": 18.55,
+"diameter_km": 17.0,
+"tier": "local"
+},
+{
+"name": "Sava Vallis",
+"type": "Vallis",
+"lon": 77.13,
+"lat": 19.09,
+"diameter_km": 62.0,
+"tier": "local"
+}
+]
+}

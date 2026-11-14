@@ -1,0 +1,17 @@
+{
+ "_label": "ASSUMPTION - not measured data. Derived traversal cost multipliers for geologic SURFACE units (Stack et al. 2020 names). 1.0 = neutral. Edit freely. Never present as rock abundance.",
+ "surface_unit_cost": {
+  "": 1.0,
+  "Undifferentiated smooth": 0.9,
+  "Minor Cover Us": 1.0,
+  "Moderate Cover Us": 1.1,
+  "Aeolian bedforms small": 1.4,
+  "Aeolian bedforms large": 2.0,
+  "Talus": 2.5
+ },
+ "bedrock_unit_cost": {"_note":"ASSUMPTION. Optional; default 1.0 for all bedrock units.","default":1.0,
+  "Crater floor fractured rough":1.2,"Crater rim blocky":1.3,"Crater rim breccia":1.3,"Delta blocky":1.2},
+ "slope_limit_deg_suit": {"value":25,"label":"ASSUMPTION - EVA suit/walking slope limit, editable"},
+ "roughness_weight": {"value":1.0,"label":"ASSUMPTION"},
+ "slope_weight": {"value":1.0,"label":"ASSUMPTION"}
+}

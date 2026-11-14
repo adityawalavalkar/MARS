@@ -1,0 +1,122 @@
+{
+ "_source": "Stack et al. 2020, Space Sci Rev 216:127, Table 2 (type locations). Table column is headed lat/lon but values are written LON, LAT. Descriptions are condensed from the table. stay_min is an ASSUMPTION (editable).",
+ "start": {
+  "id": "landing",
+  "name": "Octavia E. Butler landing site",
+  "lat": 18.4446,
+  "lon": 77.4509,
+  "source": "Perseverance landing site coordinates supplied by user",
+  "dem_elev_m": -2567.35693359375
+ },
+ "targets": [
+  {
+   "id": "D-bl",
+   "name": "Delta blocky",
+   "lon": 77.385,
+   "lat": 18.501,
+   "description": "Intermediate-toned blocky deposit forming steep-sided, boulder-shedding elongate ridges on the delta's upper surface",
+   "interpretation": "Coarse-grained fluvial channel deposits",
+   "stay_min": 15,
+   "crism_class": "Olivine+smectite",
+   "crism_distance_m": 19,
+   "crism_match": "nearest identified pixel",
+   "dem_elev_m": -2420.04345703125
+  },
+  {
+   "id": "D-tnl",
+   "name": "Delta thinly layered",
+   "lon": 77.35,
+   "lat": 18.451,
+   "description": "Stratified sequence of <1 m thick alternating light and dark planar bands; locally deformed",
+   "interpretation": "Fine-grained prodelta or distal lacustrine deposits",
+   "stay_min": 15,
+   "crism_class": "Olivine+smectite",
+   "crism_distance_m": 36,
+   "crism_match": "nearest identified pixel",
+   "dem_elev_m": -2439.673583984375
+  },
+  {
+   "id": "D-tkl",
+   "name": "Delta thickly layered",
+   "lon": 77.417,
+   "lat": 18.524,
+   "description": "Light-toned, resistant strata up to several metres thick",
+   "interpretation": "Channel lobes at the toe of the delta slope, or delta plain alluvial/floodplain deposits",
+   "stay_min": 15,
+   "crism_class": "Olivine+smectite",
+   "crism_distance_m": 13,
+   "crism_match": "at pixel",
+   "dem_elev_m": -2500.31103515625
+  },
+  {
+   "id": "D-tcl",
+   "name": "Delta truncated curvilinear layered",
+   "lon": 77.387,
+   "lat": 18.472,
+   "description": "Decimetre-scale sets of alternating light/dark layers that truncate against one another over tens of metres",
+   "interpretation": "Laterally accreting point bars, or subaqueous channel-levee complexes",
+   "stay_min": 15,
+   "crism_class": "Olivine+smectite",
+   "crism_distance_m": 44,
+   "crism_match": "nearest identified pixel",
+   "dem_elev_m": -2448.926025390625
+  },
+  {
+   "id": "D-lr",
+   "name": "Delta layered rough",
+   "lon": 77.481,
+   "lat": 18.583,
+   "description": "Light-toned, parallel, m-thick stratified deposit northeast of the western delta",
+   "interpretation": "Distal deltaic deposits",
+   "stay_min": 15,
+   "crism_class": "Mg-carbonate",
+   "crism_distance_m": 21,
+   "crism_match": "nearest identified pixel",
+   "dem_elev_m": -2468.13232421875
+  },
+  {
+   "id": "M-f",
+   "name": "Margin fractured",
+   "lon": 77.335,
+   "lat": 18.476,
+   "description": "Light-toned fractured bedrock on the inner crater margin, between about -2440 m and -2190 m (south of Neretva Vallis)",
+   "interpretation": "Unspecified tephra or marginal lacustrine deposit",
+   "stay_min": 15,
+   "crism_class": "Mg-carbonate",
+   "crism_distance_m": 14,
+   "crism_match": "at pixel",
+   "dem_elev_m": -2364.832275390625
+  },
+  {
+   "id": "Cf-f-1",
+   "name": "Crater floor fractured 1",
+   "lon": 77.413,
+   "lat": 18.41,
+   "description": "Massive, light-toned fractured and blocky bedrock on the crater floor below -2530 m elevation",
+   "interpretation": "Unspecific tephra, airfall, aeolian, or lacustrine deposit",
+   "stay_min": 15,
+   "crism_class": "Olivine+smectite",
+   "crism_distance_m": 21,
+   "crism_match": "nearest identified pixel",
+   "dem_elev_m": -2544.738525390625
+  },
+  {
+   "id": "Cf-fr",
+   "name": "Crater floor fractured rough",
+   "lon": 77.467,
+   "lat": 18.34,
+   "description": "Light- to medium-toned, rough, boulder-producing, highly crater-retaining unit; polygonal fracture networks are common",
+   "interpretation": "Unspecified tephra, airfall, aeolian, or lacustrine deposit",
+   "stay_min": 15,
+   "crism_class": "Olivine",
+   "crism_distance_m": 21,
+   "crism_match": "nearest identified pixel",
+   "dem_elev_m": -2616.075439453125
+  }
+ ],
+ "destination_default": "D-bl",
+ "scenario": {
+  "name": "2-person EVA to the delta front",
+  "crew": 2
+ }
+}
