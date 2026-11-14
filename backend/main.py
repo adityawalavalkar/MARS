@@ -124,13 +124,6 @@ async def root_overview():
     }
 
 
-if FRONTEND_DIST_DIR.is_dir():
-    # Production Docker image includes the Vite build. Serving it from the API
-    # origin keeps browser requests same-origin and preserves public assets such
-    # as /jezero/* alongside the React app. Register this catch-all last.
-    app.mount("/", StaticFiles(directory=str(FRONTEND_DIST_DIR), html=True), name="frontend")
-
-
 @app.get("/api/health", response_model=HealthResponse, tags=["Health"])
 async def health_check():
     """System health check and raster availability verification."""
@@ -141,6 +134,14 @@ async def health_check():
         rasters_loaded=True,
         memory_efficient_mode=True,
     )
+
+
+if FRONTEND_DIST_DIR.is_dir():
+    # Production Docker image includes the Vite build. Serving it from the API
+    # origin keeps browser requests same-origin and preserves public assets such
+    # as /jezero/* alongside the React app. Register this catch-all last so it
+    # cannot shadow FastAPI routes such as /api/health.
+    app.mount("/", StaticFiles(directory=str(FRONTEND_DIST_DIR), html=True), name="frontend")
 
 
 if __name__ == "__main__":
